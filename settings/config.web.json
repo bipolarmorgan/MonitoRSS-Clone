@@ -1,0 +1,29 @@
+{
+  "log": {
+    "level": "info",
+    "destination": ""
+  },
+  "bot": {
+    "token": "NzcyNjg1OTcxOTI1MjM3Nzgx.X5-R4w.8AJnEWoS5kaIf1GvGQnpHrJVCUA",
+    "redirectURI": "http://localhost:8081/authorize",
+    "clientID": "772685971925237781",
+    "clientSecret": "BSKsHLsgJrdrka-X6HVmkyDTsq8m1agG"
+  },
+  "database": {
+    "uri": "mongodb+srv://bipolarmorgan:Gossiper1976@ggrssbot.piemd.mongodb.net/ggrssbot?retryWrites=true&w=majority",
+    "connection": {},
+    "redis": "redis://localhost"
+  },
+  "http": {
+    "trustProxy": false,
+    "sessionSecret": "keyboard cat",
+    "port": 8081
+  },
+  "https": {
+    "enabled": false,
+    "privateKey": "",
+    "certificate": "",
+    "chain": "",
+    "port": 443
+  }
+}

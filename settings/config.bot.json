@@ -1,0 +1,65 @@
+{
+  "log": {
+    "level": "info",
+    "destination": "",
+    "linkErrs": true,
+    "unfiltered": true,
+    "rateLimitHits": true,
+    "failedFeeds": true
+  },
+  "bot": {
+    "token": "NzcyNjg1OTcxOTI1MjM3Nzgx.X5-R4w.8AJnEWoS5kaIf1GvGQnpHrJVCUA",
+    "locale": "en-US",
+    "enableCommands": true,
+    "prefix": "rss.",
+    "status": "online",
+    "activityType": "",
+    "activityName": "",
+    "streamActivityURL": "",
+    "ownerIDs": ["626956141762707456"],
+    "menuColor": 5285609,
+    "deleteMenus": true,
+    "runSchedulesOnStart": true,
+    "exitOnSocketIssues": true,
+    "exitOnDatabaseDisconnect": false,
+    "exitOnExcessRateLimits": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0"
+  },
+  "database": {
+    "uri": "mongodb+srv://bipolarmorgan:Gossiper1976@ggrssbot.piemd.mongodb.net/ggrssbot?retryWrites=true&w=majority",
+    "connection": {},
+    "articlesExpire": 14,
+    "deliveryRecordsExpire": 2
+  },
+  "feeds": {
+    "refreshRateMinutes": 10,
+    "articleDequeueRate": 1,
+    "articleRateLimit": 0,
+    "articleDailyChannelLimit": 0,
+    "timezone": "America/New_York",
+    "dateFormat": "ddd, D MMMM YYYY, h:mm A z",
+    "dateLanguage": "en",
+    "dateLanguageList": ["en"],
+    "dateFallback": false,
+    "timeFallback": false,
+    "max": 0,
+    "hoursUntilFail": 0,
+    "notifyFail": true,
+    "sendFirstCycle": true,
+    "cycleMaxAge": 1,
+    "defaultText": ":newspaper:  |  **{title}**\n\n{link}\n\n{subscriptions}",
+    "imgPreviews": true,
+    "imgLinksExistence": true,
+    "checkDates": true,
+    "formatTables": false,
+    "directSubscribers": false,
+    "decode": {}
+  },
+  "advanced": {
+    "shards": 2,
+    "batchSize": 400,
+    "parallelBatches": 1,
+    "parallelRuns": 1
+  },
+  "webURL": ""
+}
