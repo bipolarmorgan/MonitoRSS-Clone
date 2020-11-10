@@ -69,7 +69,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-#.env
+.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # Repo specific
-#settings/*
+settings/*
 !settings/schedules.example.json
 !settings/config.bot.example.json
 !settings/config.web.example.json
